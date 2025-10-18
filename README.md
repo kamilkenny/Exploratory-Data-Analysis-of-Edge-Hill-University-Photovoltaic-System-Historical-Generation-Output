@@ -232,12 +232,28 @@ Although, the precipitation column did not correlate well with the target variab
 
 # CONCLUSION (EXECUTIVE SUMMARY)
 The comprehensive Exploratory Data Analysis (EDA) conducted on the Durning Centre's PV system historical generation dataset indicates a high potential for its application in machine learning and deep learning models. Some observations from the EDA process are:
+
+
 •	The Durning Centre PV system installation size of 39.02 kWh is 10.98 kWh short of the United Kingdom government's minimum approved generation requirement to sell the DC generation output of largely domestic-scale installations of a renewable energy system to the National Grid (Beis.R. et al., 2019). Nonetheless, the output generation is substantial enough for a preliminary forecasting analysis that can guide the behavioural analysis of the future generation output of small or large-scale PV grids.
+
+
 •	The year-over-year change [kWh] in generation output of the PV system shows that there was a year-end increment in generation output in three (3) out of the five (5) years from 2018 to 2023 considered in the analysis. 2023 had a huge dip in generation, and the pro-rata analysis conducted for that particular year could not make up for the shortfall in generation. This is a point of concern that can significantly affect the impending forecasting analysis.
+
+
 •	The correlation analysis and feature importance test carried out show that weather features such as temperature, solar irradiance, and wind speed are positively correlated with the target (total yield of the PV system) that we intend to predict. Wind direction and precipitation weather features are negatively correlated with the target variable, making them unsuitable for inclusion as features to avoid affecting the overall accuracy of our prediction.
+
+
 •	The Augmented Dickey Fuller Test showed that statistical properties like mean, and variance are consistent over time, making the dataset suitable for many types of time series forecasting models that assume stationarity.
+
+
+
 •	The seasonality analysis conducted showed that 2021 had the peak generation output of all the years considered, which occurred in the summer. The summer peak generation is relative for the years considered.
+
+
 In conclusion, the careful preprocessing, along with detailed statistical and visual analyses, has ensured that the dataset is robust, reliable, and primed for predictive modeling. This groundwork paves the way for developing advanced models that can accurately forecast the future energy generation of the PV system. Such forecasts are instrumental in achieving smarter grid integration, optimizing renewable energy use, and prioritizing maintenance and operational decisions, thereby contributing significantly to the efficiency and sustainability of power systems.
+
+
+
 
 # REFERENCES 
 • Department of Computer Science and Engineering Department, Edgehill University, UK. 	
